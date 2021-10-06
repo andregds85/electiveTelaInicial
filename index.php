@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Consulta Pacientes</title>
+  <title>Eletivas SC</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -74,9 +74,8 @@
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/logo_menor.png">Eletivas SC</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Inicio</a></li>
-        <li><a href="http://importacartao.eletivassc.com.br">Administrador</a></li>
+        <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
         <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
-
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
