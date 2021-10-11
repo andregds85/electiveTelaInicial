@@ -189,7 +189,8 @@
           <h5 class="white-text">Conecta</h5>
           <ul>
             <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
-            <li><a class="white-text" href="http://importacartao.eletivassc.com.br/">Importa Cartão</a></li>
+            <li><a class="white-text" href="https://administrador.eletivassc.com.br">Adminisrador</a></li>
+      
           </ul>
         </div>
       </div>
