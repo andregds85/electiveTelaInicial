@@ -74,14 +74,17 @@
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/logo_menor.png">Eletivas SC</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Inicio</a></li>
-        <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
         <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
+
+        <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
+        <li><a href="http://administrador.eletivassc.com.br">Regulacao</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="http://importacartao.eletivassc.com.br">Importa Cartão</a></li>
+      <li><a href="#">Inicio</a></li>
         <li><a href="https://www.saude.sc.gov.br/">SES</a></li>
-
+        <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
+        <li><a href="http://administrador.eletivassc.com.br">Regulacao</a></li>
 
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -113,12 +116,8 @@
       </fieldset>
     </form>
 
-       
-
         <?php 
-
         $today = date("20y");                         
-      
 
        ?>
       
@@ -169,7 +168,6 @@
     </div>
     <br><br>
   </div>
-
  
 
   <footer class="#1b5e20 green darken-4">
@@ -190,11 +188,14 @@
           <ul>
             <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
             <li><a class="white-text" href="https://administrador.eletivassc.com.br">Adminisrador</a></li>
-      
+            <li><a class="white-text" href="https://regulacao.eletivassc.com.br">Regulação</a></li>
+
           </ul>
         </div>
       </div>
     </div>
+   
+   
     <div class="footer-copyright">
       <div class="container"><h6 class="header center blue-text">Secretaria de Estado da Saúde 
     @ <?php echo $today; ?> <a class="orange-text text-lighten-3" href="http://materializecss.com"></a></h6>
