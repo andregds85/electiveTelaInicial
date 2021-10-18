@@ -78,6 +78,8 @@
 
         <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
         <li><a href="http://administrador.eletivassc.com.br">Regulacao</a></li>
+        <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
+
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -85,6 +87,8 @@
         <li><a href="https://www.saude.sc.gov.br/">SES</a></li>
         <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
         <li><a href="http://administrador.eletivassc.com.br">Regulacao</a></li>
+        <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
+
 
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -118,10 +122,8 @@
 
         <?php 
         $today = date("20y");                         
-
        ?>
-      
-        
+       
     
       <div id="contentLoading">
 				<div id="loading"></div>
@@ -189,7 +191,7 @@
             <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
             <li><a class="white-text" href="https://administrador.eletivassc.com.br">Adminisrador</a></li>
             <li><a class="white-text" href="https://regulacao.eletivassc.com.br">Regulação</a></li>
-
+            <li><a class="white-text" href="https://hospital.eletivassc.com.br">Hospital</a></li>
           </ul>
         </div>
       </div>
