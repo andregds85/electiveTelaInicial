@@ -77,7 +77,7 @@
         <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
 
         <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
-        <li><a href="http://administrador.eletivassc.com.br">Regulacao</a></li>
+        <li><a href="http://regulacao.eletivassc.com.br">Regulacao</a></li>
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
 
       </ul>
@@ -86,7 +86,7 @@
       <li><a href="#">Inicio</a></li>
         <li><a href="https://www.saude.sc.gov.br/">SES</a></li>
         <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
-        <li><a href="http://administrador.eletivassc.com.br">Regulacao</a></li>
+        <li><a href="http://regulacao.eletivassc.com.br">Regulacao</a></li>
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
 
 
