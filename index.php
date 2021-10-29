@@ -79,6 +79,8 @@
         <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
         <li><a href="http://regulacao.eletivassc.com.br">Regulacao</a></li>
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
+        <li><a href="http://importapaciente.eletivassc.com.br">Importa Paciente</a></li>
+
 
       </ul>
 
@@ -88,6 +90,8 @@
         <li><a href="http://administrador.eletivassc.com.br">Administrador</a></li>
         <li><a href="http://regulacao.eletivassc.com.br">Regulacao</a></li>
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
+        <li><a href="http://importapaciente.eletivassc.com.br">Importa paciente</a></li>
+
 
 
       </ul>
@@ -192,6 +196,8 @@
             <li><a class="white-text" href="https://administrador.eletivassc.com.br">Adminisrador</a></li>
             <li><a class="white-text" href="https://regulacao.eletivassc.com.br">Regulação</a></li>
             <li><a class="white-text" href="https://hospital.eletivassc.com.br">Hospital</a></li>
+            <li><a class="white-text" href="https://importapaciente.eletivassc.com.br">Importa Paciente</a></li>
+
           </ul>
         </div>
       </div>
@@ -210,6 +216,5 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
   </body>
 </html>
