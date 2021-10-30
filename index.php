@@ -11,63 +11,15 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
       
-      <script type="text/javascript">
-      $(document).ready(function(){
-    
-        //Aqui a ativa a imagem de load
-        function loading_show(){
-        $('#loading').html("<img src='img/loading.gif'/>").fadeIn('fast');
-        }
-        
-        //Aqui desativa a imagem de loading
-        function loading_hide(){
-            $('#loading').fadeOut('fast');
-        }       
-        
-        // aqui a fun��o ajax que busca os dados em outra pagina do tipo html, n�o � json
-        function load_dados(valores, page, div)
-        {
-            $.ajax
-                ({
-                    type: 'POST',
-                    dataType: 'html',
-                    url: page,
-                    beforeSend: function(){//Chama o loading antes do carregamento
-                      loading_show();
-            },
-                    data: valores,
-                    success: function(msg)
-                    {
-                        loading_hide();
-                        var data = msg;
-                  $(div).html(data).fadeIn();				
-                    }
-                });
-        }
-        
-        //Aqui eu chamo o metodo de load pela primeira vez sem parametros para pode exibir todos
-        load_dados(null, 'pesquisa.php', '#');
-        
-        
-        //Aqui uso o evento key up para come�ar a pesquisar, se valor for maior q 0 ele faz a pesquisa
-        $('#cns').keyup(function(){
-            
-            var valores = $('#form_pesquisa').serialize()//o serialize retorna uma string pronta para ser enviada
-            
-            //pegando o valor do campo #pesquisaCliente
-            var $parametro = $(this).val();
-            
-            if($parametro.length >= 13)
-            {
-                load_dados(valores, 'pesquisa.php', '#MostraPesq');
-            }else
-            {
-                load_dados(null, 'pesquisa.php', '#');
-            }
-        });
-    
-      });
-      </script>	
+
+  
+
+     
+
+
+
+
+
 </head>
 <body>
   <nav class="#1b5e20 green darken-4" role="navigation">
@@ -92,49 +44,116 @@
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
         <li><a href="http://importapaciente.eletivassc.com.br">Importa paciente</a></li>
 
-
-
-      </ul>
+     </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center blue-text">Consulta Paciente</h1>
-      <div class="row center">
-    
 
-      <h5 class="yeloow-text">Verifique o paciente digitando o cartão nacional abaixo</h5>
-      </div>
-      <div class="row center">
-       
-             
+   
+ <p>
+  
 
-<center>
-  <article>
+   
+   
+      <div class="row center">
          
-          <form name="form_pesquisa" id="form_pesquisa" method="post" action="">
-      <fieldset>
-        <legend>Digite o Número do Cartao</legend>
-          <div class="input-prepend">
-            <span class="add-on"><i class="icon-search"></i></span>
-            <input type="text" name="cns" id="cns" value="" tabindex="1" placeholder="Pesquisar Cartao Nacional..." />
-          </div>
-      </fieldset>
-    </form>
+  <div class="container">
+    <div class="carousel carousel-slider" id="demo-carousel-content" data-indicators="true" >
+   <div class="carousel carousel-slider center">
+    <div class="carousel-fixed-item center">
+    </div>
+    <div class="carousel-item red white-text" href="#one!">
+      <h2>Administrador</h2>
+      <p class="white-text">Acesse o endereço http://administrador.eletivassc.com.br</p>
+    </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <h2>Regulação</h2>
+      <p class="white-text">Acesse o endereço http://regulacao.eletivassc.com.br</p>
+    </div>
+    <div class="carousel-item green white-text" href="#three!">
+      <h2>Hospital</h2>
+      <p class="white-text">Acesse o endereço http://hospital.eletivassc.com.br</p>
+    </div>
+    <div class="carousel-item blue white-text" href="#four!">
+      <h2>Importa Paciente</h2>
+      <p class="white-text">Acesse o endereço http://importapaciente.eletivassc.com.br</p>
+    </div>
+  </div>
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+       
+  
+      
+  
+ </div>
+  
+  
+  
+ <script>
+  
+ $(document).ready(function(){
+  
+  $('#demo-carousel-content').carousel();
+  
+   setInterval(function() {
+  
+     $('#demo-carousel-content').carousel('next');
+  
+   }, 2000);   
+  
+    
+  
+ });
+  
+ </script>
+
+
+
+
+
+
+
+
+
+
+
 
         <?php 
         $today = date("20y");                         
        ?>
        
-    
-      <div id="contentLoading">
-				<div id="loading"></div>
-			</div>
+
 			<section class="jumbotron">
-				<div id="MostraPesq"></div>
-			</section>
+
+
+
+
+
+    </section>
 		</article>
 	</center>
     </div>
@@ -152,21 +171,15 @@
         <div class="col s12 m4">
           <div class="icon-block">
 
-          <img class="responsive-img" src="img/c3.jfif">
 
           </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-
-          </div>
-        </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
 
-            <img class="responsive-img" src="img/logo2.png">
+            <img class="responsive-img" src="img/logo3.png">
           </div>
         </div>
       </div>
@@ -190,7 +203,7 @@
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Conecta</h5>
+          <h5 class="white-text"></h5>
           <ul>
             <li><a class="white-text" href="https://www.saude.sc.gov.br/">SES</a></li>
             <li><a class="white-text" href="https://administrador.eletivassc.com.br">Adminisrador</a></li>
