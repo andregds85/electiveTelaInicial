@@ -12,13 +12,8 @@
   <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
       
 
-  
 
      
-
-
-
-
 
 </head>
 <body>
@@ -32,6 +27,8 @@
         <li><a href="http://regulacao.eletivassc.com.br">Regulacao</a></li>
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
         <li><a href="http://importapaciente.eletivassc.com.br">Importa Paciente</a></li>
+        <li><a href="http://municipio.eletivassc.com.br">Municipio</a></li>
+
 
 
       </ul>
@@ -43,6 +40,8 @@
         <li><a href="http://regulacao.eletivassc.com.br">Regulacao</a></li>
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
         <li><a href="http://importapaciente.eletivassc.com.br">Importa paciente</a></li>
+        <li><a href="http://municipio.eletivassc.com.br">Municipio</a></li>
+
 
      </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -77,6 +76,10 @@
     <div class="carousel-item blue white-text" href="#four!">
       <h2>Importa Paciente</h2>
       <p class="white-text">Acesse o endereço http://importapaciente.eletivassc.com.br</p>
+    </div>
+    <div class="carousel-item black white-text" href="#five!">
+      <h2>Municipio</h2>
+      <p class="white-text">Acesse o endereço http://municipio.eletivassc.com.br</p>
     </div>
   </div>
 
@@ -210,6 +213,8 @@
             <li><a class="white-text" href="https://regulacao.eletivassc.com.br">Regulação</a></li>
             <li><a class="white-text" href="https://hospital.eletivassc.com.br">Hospital</a></li>
             <li><a class="white-text" href="https://importapaciente.eletivassc.com.br">Importa Paciente</a></li>
+            <li><a class="white-text" href="https://municipio.eletivassc.com.br">Municipio</a></li>
+
 
           </ul>
         </div>
