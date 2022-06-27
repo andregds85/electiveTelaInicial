@@ -11,9 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
       
-
      
-
 </head>
 <body>
   <nav class="#1b5e20 green darken-4" role="navigation">
@@ -27,7 +25,7 @@
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
         <li><a href="http://importapaciente.eletivassc.com.br">Importa Paciente</a></li>
         <li><a href="http://residentes.eletivassc.com.br">Municipio</a></li>
-
+        <li><a href="http://regulador.eletivassc.com.br">Regulador</a></li>
 
 
       </ul>
@@ -40,6 +38,8 @@
         <li><a href="http://hospital.eletivassc.com.br">Hospital</a></li>
         <li><a href="http://importapaciente.eletivassc.com.br">Importa paciente</a></li>
         <li><a href="http://residentes.eletivassc.com.br">Municipio</a></li>
+        <li><a href="http://regulador.eletivassc.com.br">Regulador</a></li>
+
 
 
      </ul>
@@ -51,10 +51,7 @@
  <p>
   
 
-   
-   
-      <div class="row center">
-         
+ <div class="row center">
   <div class="container">
     <div class="carousel carousel-slider" id="demo-carousel-content" data-indicators="true" >
    <div class="carousel carousel-slider center">
@@ -80,6 +77,12 @@
       <h2>Municipio</h2>
       <p class="white-text">Acesse o endereço http://residentes.eletivassc.com.br</p>
     </div>
+
+    <div class="carousel-item green white-text" href="#six!">
+      <h2>Regulador</h2>
+      <p class="white-text">Acesse o endereço http://regulador.eletivassc.com.br</p>
+    </div>
+
   </div>
     
   
